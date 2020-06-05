@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Lottery</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="company_logo">company_logo</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="login">LOGIN</string>
+    <string name="not_a_member_yet_join_us">Not a member yet? Join us!</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="i_am_an_admin">I am an Admin!</string>
+    <string name="enter_email_id">Enter Email ID</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="no_of_participants">No of Participants :</string>
+    <string name="winning_amount">Winning Amount :</string>
+    <string name="price">Price :</string>
+    <string name="_1000">1000</string>
+    <string name="no_of_winners">No of Winners :</string>
+    <string name="space"> - </string>
+    <string name="enter_name">Enter Name</string>
+    <string name="signup">SignUP</string>
+    <string name="under_scheme">Under Scheme :</string>
+    <string name="prize_won">Prize Won :</string>
+    <string name="already_a_member_login">Already a member? Login!</string>
+    <string name="try_signing_in">Try Signing In?</string>
+    <string name="send_verification_link">Send Verification Link</string>
+    <string name="scheme">Schemes</string>
+    <string name="logout">LOGOUT</string>
+    <string name="home">HOME</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="schemes">SCHEMES</string>
+    <string name="buy">buy</string>
+    <string name="_1">1</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="scheme_">Scheme</string>
+    <string name="winners">Winners</string>
+    <string name="feedback">Feedback</string>
+    <string name="send">Send</string>
+</resources>

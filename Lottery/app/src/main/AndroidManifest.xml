@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hpt.lottery">
+
+    <uses-permission android:name="android.permission." />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_lotto"
+        android:label="Lotto"
+        android:roundIcon="@drawable/logo_lotto"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Feedback"></activity>
+        <activity android:name=".SundayClosed" />
+        <activity android:name=".TermsAndConditions" />
+        <activity android:name=".Winners" />
+        <activity android:name=".CheckoutPage" /> <!-- <meta-data -->
+        <!-- android:name="com.google.android.gms.wallet.api.enabled" -->
+        <!-- android:value="true" /> -->
+        <activity android:name=".UserScheme" />
+        <activity android:name=".UserForgotPassword" />
+        <activity android:name=".UserHome" />
+        <activity android:name=".UserSignup" />
+        <activity android:name=".UserLogin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

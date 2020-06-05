@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TermsAndConditions">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="ScrollViewCount,UselessParent">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+    <TextView
+        android:id="@+id/heading_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto"
+        android:text="Rules and tips:-"
+        android:textAllCaps="true"
+        android:textColor="#555555"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:text="*In schemes of Rs 5,10,100,500,1000 there will be 25 winners out of 100 participants."
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="*In schemes of Rs 20,30,40,50 there will be 40 winners out of 100 participants." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="*Purchasing of tickets period will be from Monday to Saturday." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="*On Sunday there will be winners announcement thus there will be no purchasing of tickets on that day." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="*Players can see their winners name on winner list page and also they will get msg on their respective email or phone number." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="*For any queries or problem related to app or payment transaction email us at earnlotto@gmail.com,you will get reply within 24 hours." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="*If at any time if you want your purchasing ticket amount back you can click on refund button,it will be refunded back within 24 hours." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="*There will be no refund of purchasing ticket amount after the announcement of winners." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="*If you purchase more than 1 tickets of same scheme or of different scheme then your probability of winning prize money will become almost 90%." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="*If you are purchasing tickets regularly 4 weeks then your chances of winning prize money will become almost 100% irrespective of number of tickets you are purchasing." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="*Also Details will be explained in below video link." />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:text="* For Refund Admin is to be contacted (earnlotto@gmail.com)" />
+
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

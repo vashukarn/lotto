@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Home">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/dashboard"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            tools:ignore="RelativeOverlap" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/toadminsettings"
+        android:background="@drawable/bg">
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="18dp"
+            android:src="@drawable/man"
+            android:contentDescription="@string/profile" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="18dp"
+            android:layout_toEndOf="@+id/profile"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/welcome_admin"
+            android:textColor="#ffff"
+            android:textSize="18sp"
+            tools:ignore="RelativeOverlap" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/profile"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/lotto_lottery"
+            android:textColor="#ffff"
+            android:textSize="14sp" />
+
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/arrow_white"
+            android:contentDescription="@string/dashboard" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toschemefromadmin"
+        android:layout_marginTop="34dp">
+
+        <ImageView
+            android:id="@+id/icon_ar"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/archive"
+            android:contentDescription="@string/schemes">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/icon_ar"
+            android:text="@string/schemes"
+            android:textColor="#202020"
+            android:textSize="18sp"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_dark">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tomemberfromhome"
+        android:layout_marginTop="34dp">
+
+        <ImageView
+            android:id="@+id/icon_set"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/member">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/icon_set"
+            android:text="@string/members"
+            android:textColor="#202020"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_dark">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tosalesfromhome"
+        android:layout_marginTop="34dp">
+
+        <ImageView
+            android:id="@+id/icon_sh"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/sales">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_toEndOf="@id/icon_sh"
+            android:text="@string/sales"
+            android:textColor="#202020"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_dark">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/towinnersfromhome"
+        android:layout_marginTop="34dp">
+
+        <ImageView
+            android:id="@+id/icon_ser"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/settings">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_toEndOf="@id/icon_ser"
+            android:text="@string/settings"
+            android:textColor="#202020"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_dark">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tofeedbackfromhome"
+        android:layout_marginTop="34dp">
+
+        <ImageView
+            android:id="@+id/icon_se"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/feedback">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_toEndOf="@id/icon_se"
+            android:text="@string/feedbacks"
+            android:textColor="#202020"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_dark">
+
+        </ImageView>
+    </RelativeLayout>
+
+</LinearLayout>

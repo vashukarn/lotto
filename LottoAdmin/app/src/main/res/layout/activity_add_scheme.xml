@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true"
+    android:padding="15dp"
+    tools:context=".AddScheme">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_lotto"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/lotto_lottery" />
+
+    <EditText
+        android:id="@+id/add_winner_name"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:background="@drawable/et_bg"
+        android:hint="@string/enter_price"
+        android:inputType="number"
+        android:autofillHints="@string/price" />
+    <EditText
+        android:id="@+id/add_winner_prize"
+        android:background="@drawable/et_bg"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/roboto_regular"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/enter_participation_limit"
+        android:inputType="number"
+        android:autofillHints="@string/enter_participation_limit" />
+    <EditText
+        android:id="@+id/add_winner_scheme"
+        android:background="@drawable/et_bg"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/roboto_regular"
+
+        android:layout_height="50dp"
+        android:hint="@string/enter_number_of_winners"
+        android:inputType="number"
+        android:autofillHints="@string/no_of_winners" />
+    <EditText
+        android:id="@+id/edit_text_winnerstart"
+        android:background="@drawable/et_bg"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/roboto_regular"
+
+        android:layout_height="50dp"
+        android:hint="@string/enter_winning_price_start_at"
+        android:inputType="number"
+        android:autofillHints="@string/winning_amount" />
+    <EditText
+        android:id="@+id/edit_text_winnerend"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_width="match_parent"
+        android:background="@drawable/et_bg"
+        android:layout_height="50dp"
+        android:hint="@string/enter_winning_prince_end_at"
+        android:inputType="number"
+        android:autofillHints="@string/enter_winning_price_start_at" />
+
+    <Button
+        android:id="@+id/save_schem"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:fontFamily="@font/roboto_regular"
+        android:background="@drawable/btn_bg"
+        android:text="@string/save"
+        android:padding="10dp" />
+
+</LinearLayout>
